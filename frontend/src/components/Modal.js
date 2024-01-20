@@ -9,7 +9,7 @@ class Model extends Component {
     };
   }
 
-  handleChange = (e) => {
+  handleChange = (e) => { 
     const { name, value, type, checked } = e.target;
     const newValue = type === "checkbox" ? checked : value;
     const activeItem = { ...this.state.activeItem, [name]: newValue };
