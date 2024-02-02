@@ -7,7 +7,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      model: false,
+      model: false, 
       viewCompleted: false, 
       activeItem: {
         title: "",
